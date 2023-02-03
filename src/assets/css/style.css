@@ -32,13 +32,13 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 body {
-  font-family: "babbak", sans-serif;
+  font-family: "babbak";
   font-size: 16px;
   color: #7f7f7f;
 }
 @font-face {
   font-family: babbak;
-  src: url(/assets/fonts/BakbakOne-Regular.ttf);
+  src: url('/assets/fonts/BakbakOne-Regular.ttf');
 }
 
 img {
@@ -47,6 +47,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   color: #242424;
+  font-family: "babbak";
   font-weight: bold;
 }
 
@@ -54,6 +55,7 @@ a {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   text-decoration: none;
+  font-family: "babbak";
 }
 
 a:hover {
@@ -68,6 +70,10 @@ p {
   margin-bottom: 10px;
   line-height: 1.7;
   color: #7f7f7f;
+  font-family: "babbak";
+}
+span{
+  font-family: "babbak";
 }
 
 p:last-child {
@@ -3711,8 +3717,8 @@ color: #08223C;
   max-width: 80%;
 }
 
-/* ios */
-.ios-area {
+
+#background{
   background-image: url('/assets/images/app/back/ios.png');
   background-repeat: no-repeat;
   background-position: right center;
@@ -3720,6 +3726,8 @@ color: #08223C;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+/* ios */
+
 
 .ios-area .section-title {
   text-align: left;
