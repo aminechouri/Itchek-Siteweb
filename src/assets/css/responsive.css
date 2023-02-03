@@ -1077,6 +1077,18 @@
     height: auto;
     background: rgb(256,256, 256,0.5);
   }
+  .accordion-button span{
+    background: rgba(160, 217, 149, 0.9);
+    padding: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    margin: auto;
+    margin-right: 10px;
+    text-align: center;
+  }
 }
 
 
