@@ -3920,7 +3920,7 @@ color: #08223C;
   border: 3px solid #567df4;
   position: absolute;
   top: 40px;
-  right: 35px;
+  left: 35px;
   width: 70px;
   height: 70px;
 }
@@ -3928,6 +3928,7 @@ color: #08223C;
 .clients-slider-two-area .clients-slider-two .slider-two-item h3 {
   font-size: 20px;
   margin-bottom: 5px;
+  text-align: right;
 }
 
 .clients-slider-two-area .clients-slider-two .slider-two-item p {
@@ -4458,3 +4459,10 @@ margin-left: 10px !important;
  margin-bottom: 20px;
  margin-top: 20px;
   }
+
+  .owl-theme .owl-nav [class*=owl-]{
+    background: rgba(160, 217, 149, 0.9) !important;
+    border-radius: 10px;
+    padding: 3px 15px;
+
+}
