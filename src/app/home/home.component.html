@@ -1,3 +1,4 @@
+<app-header></app-header>
 <div id="home" class="startup-banner-area">
     <div class="container">
         <div class="row align-items-center">
@@ -6,14 +7,13 @@
                     <h1>Vos services aux bouts des doigts.</h1>
                     <p>Découvrez une multitude de services dans une seule App !.</p>
                     <div class="startup-btn">
-                        <a href="#" class="default-btn stsrt-btn-1 me-3"><img src="/assets/images/app/icons/icon.png"
-                                alt="" width="20px"> Devenir Pro</a>
+                        <a routerLink="/pro" class="default-btn stsrt-btn-1 me-3"><img
+                                src="/assets/images/app/icons/icon.png" alt="" width="20px"> Devenir Pro</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="banner-video-contant">
-
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-sm-6 mobile">
-                <div class="our-service-card1">
+                <div class="our-service-card1 float">
                     <img src="/assets/images/app/icons/paiment.png" alt="" width="37px">
                     <h3>Paiement</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -193,9 +193,11 @@
                             <h4>Android / Ios</h4>
                         </div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard. Lorem Ipsum is simply dummy text of the printing
+                            Lorem Ipsum has been the industry's standard. Lorem Ipsum is simply dummy text of the
+                            printing
                             and typesetting industry.
-                            Lorem Ipsum has been the industry's standard. Lorem Ipsum is simply dummy text of the printing
+                            Lorem Ipsum has been the industry's standard. Lorem Ipsum is simply dummy text of the
+                            printing
                             and typesetting industry.
                             Lorem Ipsum has been the industry's standard. .</p>
                         <div class="startup-btn">
@@ -221,7 +223,7 @@
             <div class="our-service-shape4">
                 <img src="assets/images/app/shapes/image (213).png" alt="Shape" width="80px">
             </div>
-    
+
         </div>
     </div>
     <div id="avis" class="clients-slider-two-area ptb-100">
@@ -232,25 +234,46 @@
             </div>
             <div class="clients-slider-two ">
                 <owl-carousel-o [options]="customOptions">
-                   
+
                     <ng-template carouselSlide>
-                      <div class="slide slider-two-item">
-                        <div class="header">
-                            <img src="/assets/images/app/avatar.png" alt="Image">
-                            <h3>Thomas Smith</h3>
+                        <div class="slide slider-two-item">
+                            <div class="header">
+                                <img src="/assets/images/app/avatar.png" alt="Image">
+                                <h3>Thomas Smith</h3>
+                            </div>
+
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled and
+                                demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
+                            <i class="las la-quote-left clients-icon"></i>
+                            <div class="rating">
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                            </div>
                         </div>
-                      
-                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
-                            demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
-                        <i class="las la-quote-left clients-icon"></i>
-                        <div class="rating">
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
-                            <i class="las la-star"></i>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                        <div class="slide slider-two-item">
+                            <div class="header">
+                                <img src="/assets/images/app/avatar.png" alt="Image">
+                                <h3>Thomas Smith</h3>
+                            </div>
+
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled and
+                                demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
+                            <i class="las la-quote-left clients-icon"></i>
+                            <div class="rating">
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                            </div>
                         </div>
-                      </div>
                     </ng-template>
                     <ng-template carouselSlide>
                         <div class="slide slider-two-item">
@@ -258,8 +281,9 @@
                                 <img src="/assets/images/app/avatar.png" alt="Image">
                                 <h3>Thomas Smith</h3>
                             </div>
-                          
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled and
                                 demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
                             <i class="las la-quote-left clients-icon"></i>
                             <div class="rating">
@@ -269,7 +293,7 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                             </div>
-                          </div>
+                        </div>
                     </ng-template>
                     <ng-template carouselSlide>
                         <div class="slide slider-two-item">
@@ -277,8 +301,9 @@
                                 <img src="/assets/images/app/avatar.png" alt="Image">
                                 <h3>Thomas Smith</h3>
                             </div>
-                          
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled and
                                 demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
                             <i class="las la-quote-left clients-icon"></i>
                             <div class="rating">
@@ -288,7 +313,7 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                             </div>
-                          </div>
+                        </div>
                     </ng-template>
                     <ng-template carouselSlide>
                         <div class="slide slider-two-item">
@@ -296,8 +321,9 @@
                                 <img src="/assets/images/app/avatar.png" alt="Image">
                                 <h3>Thomas Smith</h3>
                             </div>
-                         
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled and
                                 demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
                             <i class="las la-quote-left clients-icon"></i>
                             <div class="rating">
@@ -307,28 +333,9 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                             </div>
-                          </div>
+                        </div>
                     </ng-template>
-                    <ng-template carouselSlide>
-                        <div class="slide slider-two-item">
-                            <div class="header">
-                                <img src="/assets/images/app/avatar.png" alt="Image">
-                                <h3>Thomas Smith</h3>
-                            </div>
-                          
-                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
-                                demoralized by the charms of pleasure of the moment, so blinded by desire.</p>
-                            <i class="las la-quote-left clients-icon"></i>
-                            <div class="rating">
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                            </div>
-                          </div>
-                    </ng-template>
-                  </owl-carousel-o>
+                </owl-carousel-o>
             </div>
             <div class="client-shape">
                 <img src="assets/images/shape/shape27.png" alt="Image">
@@ -418,7 +425,7 @@
                             Lorem Ipsum has been the industry's standard?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -486,3 +493,4 @@
         </div>
     </div>
 </div>
+<app-footer></app-footer>

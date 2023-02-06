@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ProComponent } from './pro/pro.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    ProComponent,
 
   ],
   imports: [
